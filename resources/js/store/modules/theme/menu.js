@@ -7,7 +7,8 @@ function menus(rootState) {
 
         // Autocrud
 
-        // #Autocrud#
+        { icon: 'help', text: 'Sekolah', route: '/sekolah', auth: true }, 
+		// #Autocrud#
 
         { divider: true },
         { subheader: "Settings", group_permissions: ["Admin"] },

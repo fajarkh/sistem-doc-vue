@@ -1,14 +1,7 @@
 <template>
   <div class="rounded-lg">
-    <DataTable
-      class="borderless"
-      @saved="saved"
-      :moduleName="moduleName"
-      title="User List"
-      :headers="headers"
-      :slots="slots"
-      :formData="true"
-    >
+    <DataTable class="borderless" @saved="saved" :moduleName="moduleName" title="User List" :headers="headers"
+      :slots="slots" :formData="true">
       <template #modal-form="{ editedItem, dialog }">
         <ModulForm :form="editedItem" :dialog="dialog" />
       </template>
@@ -20,9 +13,7 @@
       </template>
 
       <template #actions="{ item }">
-        <v-icon color="success" small class="mr-2" @click="notify(item)">
-          mdi-bell
-        </v-icon>
+        <v-icon color="success" small class="mr-2" @click="notify(item)">mdi-bell</v-icon>
       </template>
     </DataTable>
   </div>

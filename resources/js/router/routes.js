@@ -5,7 +5,8 @@ const routes = [
     // Master Module Auto Register
     ...registerModule([
         // Autocrud
-        // #Autocrud#
+        'Sekolah', 
+		// #Autocrud#
     ]),
     // registerModule("Pedoman Kerja", { can: null }),
 

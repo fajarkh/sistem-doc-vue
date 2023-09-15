@@ -14,6 +14,7 @@ use App\Http\Controllers\{
 
   // Autocrud Import
 
+	SekolahController,
 	// #Autocrud Import#
 };
 
@@ -53,5 +54,6 @@ Route::middleware('auth:sanctum')->group(function () {
 
   // Autocrud
 
+	Route::resource('sekolah', SekolahController::class);
 	// #Autocrud#
 });

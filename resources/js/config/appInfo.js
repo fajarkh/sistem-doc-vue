@@ -3,9 +3,9 @@ export default {
     shortname: "BARQUN X",
     instance: "BARQUN DIGITECH",
     theme: {
-        primary: "blue",
-        secondary: "blue darken-3",
-        accent: "yellow",
+        primary: "dark",
+        secondary: "dark darken-3",
+        accent: "green",
     },
-    sideBarFilter: false,
+    sideBarFilter: true,
 };
